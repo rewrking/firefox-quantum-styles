@@ -1,0 +1,18 @@
+/*
+========== New Tab page (about:newtab) ========== */
+@import url(./content/aboutnewtab.css); /**/
+/* Background-image for funzies */
+/*@import url(./content/aboutnewtab_winners.css); /**/
+
+/*
+========== Custom page styles (like Stylus/stylish, etc) ========== */
+/*  To use, create a *.css file for each site or domain, wrapped in the following:
+
+	@-moz-document domain("google.com") {}
+	@-moz-document url("https://www.google.com") {}
+
+	add !important to every new style change
+
+	import each file below
+*/
+/*@import url(sites.css); /**/

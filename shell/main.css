@@ -1,0 +1,79 @@
+@import url(./_theme.css); /**/
+
+/* All the opinionated stuff. If you don't like it... well, frankly, I don't give a damn. */
+#tabbrowser-tabs:-moz-window-inactive {
+	background-color: #fff !important;
+}
+#tabbrowser-tabs:not(-moz-window-inactive) {
+	background-color: var(--windows-ten-os-color) !important;
+}
+#browser-panel,
+#navigator-toolbox {
+	background-color: transparent !important;
+}
+
+#TabsToolbar {
+	color: #aaa !important;
+	/*padding-top: 12px !important;*/
+}
+#TabsToolbar hbox.titlebar-placeholder {
+	width: 16px !important;
+	border-right: none !important;
+}
+
+.tabbrowser-tab::after,
+.tabbrowser-tab::before {
+	border-left: none !important;
+}
+
+.tab-background .tab-line {
+	background-color: var(--custom-accent-color) !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
+	display: none !important;
+}
+
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+	display: -moz-box !important;
+}
+
+.tabbrowser-tab {
+	border-left: 1px solid transparent !important;
+	border-right: 1px solid transparent !important;
+}
+
+.tabbrowser-tab[visuallyselected="true"] {
+	border-right-color: var(--tabs-border-color) !important;
+	border-left-color: var(--tabs-border-color) !important;
+}
+
+[uidensity="compact"]:root toolbarbutton.bookmark-item:not(.subviewbutton) {
+	padding: 6px 4px !important;
+}
+
+#nav-bar {
+	padding: 6px 4px !important;
+}
+
+toolbar .toolbarbutton-1 > .toolbarbutton-icon {
+    width: calc(1.75 * var(--toolbarbutton-inner-padding) + 16px) !important;
+}
+
+#customizableui-special-spring1,
+#customizableui-special-spring2 {
+	display: none !important;
+}
+
+/*#urlbar {
+	width: 100% !important;
+}*/
+
+#ublock0_raymondhill_net-browser-action .toolbarbutton-icon {
+	width: 12px !important;
+	height: 12px !important;
+}
+
+.tabbrowser-tab[label="New Tab"] .tab-icon-image {
+	display: none !important;
+}
