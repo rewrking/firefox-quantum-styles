@@ -3,6 +3,7 @@
 @import url(./content/aboutnewtab.css); /**/
 /* Background-image for funzies */
 /*@import url(./content/aboutnewtab_winners.css); /**/
+@import url(./content/aboutnewtab_tomato_guy.css); /**/
 
 /*
 ========== Custom page styles (like Stylus/stylish, etc) ========== */
@@ -15,4 +16,4 @@
 
 	import each file below
 */
-@import url(sites.css); /**/
+@import url(./sites.css); /**/
