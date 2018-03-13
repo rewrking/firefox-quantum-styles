@@ -77,3 +77,15 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 .tabbrowser-tab[label="New Tab"] .tab-icon-image {
 	display: none !important;
 }
+
+.tab-throbber,
+.tab-throbber-fallback,
+.tab-sharing-icon-overlay,
+.tab-icon-sound,
+.tab-close-button {
+    margin-top: 4px !important;
+}
+
+.tab-label-container {
+    margin-top: 4px !important;
+}
