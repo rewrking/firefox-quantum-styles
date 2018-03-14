@@ -89,3 +89,7 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 .tab-label-container {
     margin-top: 4px !important;
 }
+
+.tabbrowser-tab[visuallyselected="true"] {
+    color: #323232 !important;
+}
