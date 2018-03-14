@@ -78,6 +78,10 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 	height: 12px !important;
 }
 
+.tab-icon-image {
+	margin-top: 3px !important;
+}
+
 .tabbrowser-tab[label="New Tab"] .tab-icon-image {
 	display: none !important;
 }
@@ -96,4 +100,10 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 
 .tabbrowser-tab[visuallyselected="true"] {
     color: #323232 !important;
+}
+
+toolbarbutton-animatable-box[brighttext]:-moz-window-inactive,
+toolbar[brighttext] .toolbarbutton-animatable-box:-moz-window-inactive,
+toolbar[brighttext] .toolbarbutton-1:-moz-window-inactive {
+	fill: #323232 !important;
 }
