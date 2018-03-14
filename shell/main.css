@@ -1,10 +1,14 @@
 @import url(./_theme.css); /**/
 
 /* All the opinionated stuff. If you don't like it... well, frankly, I don't give a damn. */
-#tabbrowser-tabs:-moz-window-inactive {
+#tabbrowser-tabs:-moz-window-inactive,
+#new-tab-button:-moz-window-inactive,
+#alltabs-button:-moz-window-inactive {
 	background-color: #fff !important;
 }
-#tabbrowser-tabs:not(-moz-window-inactive) {
+#tabbrowser-tabs:not(-moz-window-inactive),
+#new-tab-button:not(-moz-window-inactive),
+#alltabs-button:not(-moz-window-inactive) {
 	background-color: var(--windows-ten-os-color) !important;
 }
 #browser-panel,
