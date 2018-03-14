@@ -1,0 +1,5 @@
+@-moz-document url(about:newtab), url(about:home) {
+	#root {
+		background-image: url('../img/metal_slug_crab.gif') !important;
+	}
+}

@@ -2,13 +2,13 @@
 
 /* All the opinionated stuff. If you don't like it... well, frankly, I don't give a damn. */
 #tabbrowser-tabs:-moz-window-inactive,
-#new-tab-button:-moz-window-inactive,
-#alltabs-button:-moz-window-inactive {
+#wrapper-new-tab-button:-moz-window-inactive,
+#wrapper-alltabs-button:-moz-window-inactive {
 	background-color: #fff !important;
 }
 #tabbrowser-tabs:not(-moz-window-inactive),
-#new-tab-button:not(-moz-window-inactive),
-#alltabs-button:not(-moz-window-inactive) {
+#wrapper-new-tab-button:not(-moz-window-inactive),
+#wrapper-alltabs-button:not(-moz-window-inactive) {
 	background-color: var(--windows-ten-os-color) !important;
 }
 #browser-panel,
@@ -18,6 +18,7 @@
 
 #TabsToolbar {
 	color: #aaa !important;
+	text-shadow: none !important;
 	/*padding-top: 12px !important;*/
 }
 #TabsToolbar hbox.titlebar-placeholder {
@@ -84,7 +85,7 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 	margin-top: 3px !important;
 }
 
-.tabbrowser-tab[label="New Tab"] .tab-icon-image {
+.tabbrowser-tab[label="New Tab"]:not([pinned="true"]) .tab-icon-image {
 	display: none !important;
 }
 

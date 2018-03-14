@@ -1,19 +1,26 @@
 @-moz-document url(about:newtab), url(about:home) {
-	body {
-		background-color: #738c9c !important;
-		background-image: linear-gradient(135deg, rgba(51,85,132,1) 0%,rgba(115,140,156,1) 100%) !important;
+	body,
+	#root {
 		background-repeat: no-repeat !important;
 		background-position: center !important;
+	}
+	body {
+		display: table-cell !important;
+		background-color: #738c9c !important;
+		background-image: linear-gradient(135deg, rgba(51,85,132,1) 0%,rgba(115,140,156,1) 100%) !important;
 		color: #ffffff !important;
 		width: 100vw !important;
 		height: 100vh !important;
-		display: table-cell !important;
 		text-align: center !important;
 		vertical-align: middle !important;
 		font-size: 24pt !important;
 		overflow: auto !important;
 	}
-	#root,
+	#root {
+		display: block !important;
+		position: relative;
+	}
+	#root > *,
 	#snippets-container,
 	#newtab-customize-button,
 	#newtab-vertical-margin,
