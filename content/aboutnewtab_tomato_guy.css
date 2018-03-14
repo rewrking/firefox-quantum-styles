@@ -1,6 +1,6 @@
 @-moz-document url(about:newtab), url(about:home) {
 	body {
-		background-image: url('../img/what.gif'), linear-gradient(135deg, rgba(51,85,132,1) 0%,rgba(115,140,156,1) 100%) !important;
-		background-size: 160px 160px, 100% 100% !important;
+		background-image: url('../img/tomato_guy.gif'), linear-gradient(135deg, rgba(51,85,132,1) 0%,rgba(115,140,156,1) 100%) !important;
+		background-size: 120px 120px, 100% 100% !important;
 	}
 }

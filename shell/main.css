@@ -59,7 +59,9 @@
 #nav-bar {
 	padding: 6px 4px !important;
 }
-
+toolbar .toolbarbutton-1 {
+	margin: 3px 0 0 !important;
+}
 toolbar .toolbarbutton-1 > .toolbarbutton-icon {
     width: calc(1.75 * var(--toolbarbutton-inner-padding) + 16px) !important;
 }
