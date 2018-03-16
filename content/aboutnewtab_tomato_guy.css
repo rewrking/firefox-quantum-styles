@@ -1,5 +1,6 @@
 @-moz-document url(about:newtab), url(about:home) {
-	#root {
+	#root,
+	#onboarding-overlay {
 		background-image: url('../img/tomato_guy.gif') !important;
 		background-size: 120px 120px, 100% 100% !important;
 	}

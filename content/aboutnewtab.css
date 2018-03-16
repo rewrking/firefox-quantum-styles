@@ -1,6 +1,7 @@
 @-moz-document url(about:newtab), url(about:home) {
 	body,
-	#root {
+	#root,
+	#onboarding-overlay {
 		background-repeat: no-repeat !important;
 		background-position: center !important;
 	}
@@ -16,11 +17,14 @@
 		font-size: 24pt !important;
 		overflow: auto !important;
 	}
-	#root {
+	#root,
+	#onboarding-overlay {
 		display: block !important;
 		position: relative;
+		background-color: transparent !important;
 	}
 	#root > *,
+	#onboarding-overlay > *,
 	#snippets-container,
 	#newtab-customize-button,
 	#newtab-vertical-margin,

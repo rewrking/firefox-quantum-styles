@@ -1,5 +1,6 @@
 @-moz-document url(about:newtab), url(about:home) {
-	#root {
+	#root,
+	#onboarding-overlay {
 		background-image: url('../img/metal_slug_crab.gif') !important;
 	}
 }
