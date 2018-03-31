@@ -112,3 +112,6 @@ toolbar[brighttext] .toolbarbutton-animatable-box:-moz-window-inactive,
 toolbar[brighttext] .toolbarbutton-1:-moz-window-inactive {
 	fill: #323232 !important;
 }
+notification[label*="Did you mean to go to"] {
+	display: none !important;
+}
