@@ -31,6 +31,8 @@
 	#newtab-customize-overlay,
 	#onboarding-overlay-button,
 	#onboarding-notification-bar,
+	#header-asrouter-container,
+	#footer-asrouter-container,
 	.newtab-customize-panel-container {
 		display: none !important;
 	}
