@@ -1,9 +1,9 @@
 /*
 ========== Main Compact changes ========== */
-@import url(./shell/main.css); /**/
+/* @import url(./shell/main.css); /**/
 
 /*
 ========== Additional customizations ========== */
 /* Comment out with "/*" at the beginning of the line to disable */
-@import url(./shell/hide_urlbar_stuff.css); /**/
+/* @import url(./shell/hide_urlbar_stuff.css); /**/
 @import url(./shell/compact_urlbar.css); /**/
