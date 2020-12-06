@@ -103,9 +103,9 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
     margin-top: 4px !important;
 }
 
-.tabbrowser-tab[visuallyselected="true"] {
+/*.tabbrowser-tab[visuallyselected="true"] {
     color: #323232 !important;
-}
+}*/
 
 toolbarbutton-animatable-box[brighttext]:-moz-window-inactive,
 toolbar[brighttext] .toolbarbutton-animatable-box:-moz-window-inactive,
