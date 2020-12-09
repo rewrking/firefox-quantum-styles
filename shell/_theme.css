@@ -1,6 +1,7 @@
  :root {
 	 /*--windows-ten-os-color: #4c4a48;*/
 	 --windows-ten-os-color: #000000;
-     /*--custom-accent-color: #57c945;*/
-	 --custom-accent-color: #e67e22;
+     /*--accent-color-win: #57c945;*/
+	 --accent-color-win: #e67e22;
+	 --accent-color-mac: #ac36ab;
  }

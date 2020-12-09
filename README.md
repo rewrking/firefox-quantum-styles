@@ -15,7 +15,7 @@ Setting up this repository mainly for my own benefit, but others might find it u
 
 (Create the "chrome" folder if you don't have one already)
 
-Customize the "windows-ten-os-color" and "custom-accent-color" in "/shell/_theme.css". The OS color has to be set manually unfortunately. In Windows 10 this is the color of your title bar, and will appear in the tab bar & behind inactive tabs.
+Customize the "windows-ten-os-color" and "accent-color-win" in "/shell/_theme.css". The OS color has to be set manually unfortunately. In Windows 10 this is the color of your title bar, and will appear in the tab bar & behind inactive tabs.
 
 At this point, everything should be styled next time you start up Firefox. With it open, go into "Menu > Customize" and select the "Compact" density, the default theme & check off "Title Bar"
 
