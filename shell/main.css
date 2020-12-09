@@ -103,15 +103,6 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
     margin-top: 4px !important;
 }
 
-.tabbrowser-tab[visuallyselected="true"] {
-    color: #323232 !important;
-}
-
-toolbarbutton-animatable-box[brighttext]:-moz-window-inactive,
-toolbar[brighttext] .toolbarbutton-animatable-box:-moz-window-inactive,
-toolbar[brighttext] .toolbarbutton-1:-moz-window-inactive {
-	fill: #323232 !important;
-}
 notification[label*="Did you mean to go to"] {
 	display: none !important;
 }
