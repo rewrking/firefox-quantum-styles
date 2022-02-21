@@ -4,4 +4,7 @@
      /*--accent-color-win: #57c945;*/
 	 --accent-color-win: #e67e22;
 	 --accent-color-mac: #ac36ab;
+
+	 /* --toolbar-bgcolor: red !important; */
+	 --lwt-selected-tab-background-color: var(--toolbar-bgcolor) !important;
  }

@@ -1,6 +1,5 @@
 @import url(./_theme.css); /**/
 
-/* All the opinionated stuff. If you don't like it... well, frankly, I don't give a damn. */
 #TabsToolbar {
 	text-shadow: none !important;
 	/*padding-top: 12px !important;*/
@@ -13,6 +12,12 @@
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
 	border-left: none !important;
+}
+
+.tab-background {
+	margin-block: 0 !important;
+	margin-top: var(--tab-block-margin) !important;
+	border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0 !important;
 }
 
 .tab-background .tab-line {
@@ -31,9 +36,6 @@
 	padding: 6px 4px !important;
 }
 
-#nav-bar {
-	padding: 6px 4px !important;
-}
 toolbar .toolbarbutton-1 {
 	margin: 3px 0 0 !important;
 }
