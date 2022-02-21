@@ -1,0 +1,8 @@
+@import url(./main_common.css); /**/
+
+#tabbrowser-tabs:not(-moz-window-inactive),
+#TabsToolbar:not(-moz-window-inactive),
+#wrapper-new-tab-button:not(-moz-window-inactive),
+#wrapper-alltabs-button:not(-moz-window-inactive) {
+	background-color: var(--windows-ten-os-color) !important;
+}

@@ -9,12 +9,6 @@
 	border-right: none !important;
 }
 
-#tabbrowser-tabs:not(-moz-window-inactive),
-#TabsToolbar:not(-moz-window-inactive),
-#wrapper-new-tab-button:not(-moz-window-inactive),
-#wrapper-alltabs-button:not(-moz-window-inactive) {
-	background-color: var(--windows-ten-os-color) !important;
-}
 .tabbrowser-tab::after,
 .tabbrowser-tab::before {
 	border-left: none !important;
@@ -27,7 +21,7 @@
 }
 
 .tab-background .tab-line {
-	background-color: var(--accent-color-win) !important;
+	background-color: var(--accent-color-mac) !important;
 }
 
 .tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
@@ -82,4 +76,20 @@ toolbar .toolbarbutton-1 > .toolbarbutton-icon {
 
 notification[label*="Did you mean to go to"] {
 	display: none !important;
+}
+
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox .tabbrowser-tab[first-visible-unpinned-tab] {
+	margin-inline-start: 6px !important;
+}
+
+.tab-content {
+	padding: 4px 12px !important;
+}
+
+#nav-bar {
+	padding: 2px 0 0 0 !important;
+}
+
+toolbar .toolbarbutton-1 {
+	margin: 3px 0 0 !important;
 }
