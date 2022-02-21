@@ -17,7 +17,7 @@
 .tab-background {
 	margin-block: 0 !important;
 	margin-top: var(--tab-block-margin) !important;
-	border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0 !important;
+	border-radius: 0 !important;
 }
 
 .tab-background .tab-line {
@@ -83,7 +83,7 @@ notification[label*="Did you mean to go to"] {
 }
 
 .tab-content {
-	padding: 4px 12px !important;
+	padding: 2px 10px 0 10px !important;
 }
 
 #nav-bar {
@@ -92,4 +92,9 @@ notification[label*="Did you mean to go to"] {
 
 toolbar .toolbarbutton-1 {
 	margin: 3px 0 0 !important;
+}
+
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"] {
+	width: 6px !important;
 }
