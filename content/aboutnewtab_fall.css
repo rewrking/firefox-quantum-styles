@@ -2,6 +2,6 @@
 	#root,
 	#onboarding-overlay {
 		background-image: url('../img/fall.gif') !important;
-		background-position: 45% center !important;
+		background-position: center !important;
 	}
 }
