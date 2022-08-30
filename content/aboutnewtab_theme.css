@@ -4,8 +4,14 @@
 	--newtab-b: #738c9c;
 }*/
 
-/* New - Chrono Trigger or something */
-:root {
+/* Old - Chrono Trigger or something */
+/*:root {
 	--newtab-a: #0f0c29;
 	--newtab-b: #7b4397;
+}*/
+
+/* New - Fall-ish */
+:root {
+	--newtab-a: #301415;
+	--newtab-b: #c02425;
 }
