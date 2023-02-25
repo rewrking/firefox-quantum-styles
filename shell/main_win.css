@@ -4,7 +4,14 @@
 #TabsToolbar:not(-moz-window-inactive),
 #wrapper-new-tab-button:not(-moz-window-inactive),
 #wrapper-alltabs-button:not(-moz-window-inactive) {
-	background-color: var(--windows-ten-os-color) !important;
+	background-color: var(--windows-eleven-os-color) !important;
+}
+
+#tabbrowser-tabs:-moz-window-inactive,
+#TabsToolbar:-moz-window-inactive,
+#wrapper-new-tab-button:-moz-window-inactive,
+#wrapper-alltabs-button:-moz-window-inactive {
+	background-color: var(--windows-eleven-os-color-inactive) !important;
 }
 
 #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme,
