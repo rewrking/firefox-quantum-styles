@@ -10,8 +10,14 @@
 	--newtab-b: #7b4397;
 }*/
 
-/* New - Fall-ish */
-:root {
+/* Old - Fall-ish */
+/*:root {
 	--newtab-a: #301415;
 	--newtab-b: #c02425;
+}*/
+
+/* New - Spring-ish */
+:root {
+	--newtab-a: #76b852;
+	--newtab-b: #8DC26F;
 }
