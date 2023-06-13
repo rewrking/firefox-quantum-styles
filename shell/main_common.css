@@ -23,9 +23,14 @@
 	background-color: var(--accent-color-mac) !important;
 }
 
+.tab-close-button {
+	margin-top: 4px !important;
+}
+
+/*
 .tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
 	display: none !important;
-}
+} */
 
 .tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
 	display: -moz-box !important;
@@ -70,7 +75,7 @@ notification[label*="Did you mean to go to"] {
 }
 
 .tab-content {
-	padding: 4px 10px 0 10px !important;
+	padding: 0 10px 0 10px !important;
 }
 
 #nav-bar {
@@ -84,4 +89,14 @@ toolbar .toolbarbutton-1 {
 .titlebar-spacer[type="pre-tabs"],
 .titlebar-spacer[type="post-tabs"] {
 	width: 4px !important;
+}
+
+#tabbrowser-tabs {
+	padding-top: 4px !important;
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
+	margin-inline-start: 0px !important;
 }

@@ -1,6 +1,9 @@
 # Firefox Quantum (57+) Compact Restyle
-This is a work-in-progress and as of right now is built mainly for use in Firefox's "Compact" density mode.
 
+To see Firefox's chrome inspector, see "Browser Toolbox"
+https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
+
+This is a work-in-progress and as of right now is built mainly for use in Firefox's "Compact" density mode.
 
 ![happiness](./img/magic.png "Happiness")
 
