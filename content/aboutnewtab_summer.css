@@ -1,0 +1,7 @@
+@-moz-document url(about:newtab), url(about:home) {
+	#root,
+	#onboarding-overlay {
+		background-image: url('../img/summer-beach.gif') !important;
+		background-position: center !important;
+	}
+}
