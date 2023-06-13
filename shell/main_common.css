@@ -91,6 +91,10 @@ toolbar .toolbarbutton-1 {
 	width: 4px !important;
 }
 
+.tab-label {
+	padding-top: 1px !important;
+}
+
 .tab-icon-overlay[soundplaying] {
 	margin-top: 2px !important;
 }
