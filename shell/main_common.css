@@ -91,6 +91,10 @@ toolbar .toolbarbutton-1 {
 	width: 4px !important;
 }
 
+.tab-icon-overlay[soundplaying] {
+	margin-top: 2px !important;
+}
+
 #tabbrowser-tabs {
 	padding-top: 4px !important;
 	padding-left: 4px !important;
