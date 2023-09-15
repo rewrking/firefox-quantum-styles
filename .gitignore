@@ -3,3 +3,4 @@ sites.css
 img/bg/
 *.7z
 Thumbs.db
+.DS_Store
