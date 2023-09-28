@@ -12,6 +12,9 @@
 /*@import url(./content/aboutnewtab_spring.css); /**/
 /*@import url(./content/aboutnewtab_summer.css); /**/
 
+/*========== Private Tab page (about:privatebrowsing) ========== */
+@import url(./content/aboutnewtab_private.css); /**/
+
 /*
 ========== Custom page styles (like Stylus/stylish, etc) ========== */
 /*  To use, create a *.css file for each site or domain, wrapped in the following:

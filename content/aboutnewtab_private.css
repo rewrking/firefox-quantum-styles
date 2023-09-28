@@ -1,0 +1,6 @@
+@-moz-document url(about:privatebrowsing) {
+	div.showPrivate {
+		background-image: url('../img/jelly_mush2.gif') !important;
+		background-position: center !important;
+	}
+}

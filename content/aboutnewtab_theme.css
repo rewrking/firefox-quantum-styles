@@ -27,3 +27,9 @@
 	--newtab-a: #335584;
 	--newtab-b: #738c9c;
 }*/
+
+/* Private Window */
+:root {
+	--privatebrowsing-a: #000000;
+	--privatebrowsing-b: #3c2f54;
+}
