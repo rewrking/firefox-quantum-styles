@@ -2,6 +2,6 @@
 	#root,
 	#onboarding-overlay {
 		background-image: url('../img/tomato_guy.gif') !important;
-		background-size: 120px 120px, 100% 100% !important;
+		background-size: 240px 240px, 100% 100% !important;
 	}
 }
