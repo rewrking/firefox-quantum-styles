@@ -1,0 +1,11 @@
+@import url(./main_common.css); /**/
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon .tab-stack,
+.tabbrowser-tab:is([selected], [multiselected]) .tab-stack {
+	padding-top: 3px !important;
+	background: linear-gradient(90deg, rgba(255,68,63,1) 0%, rgba(255,83,54,1) 33%, rgba(255,166,41,1) 75%, rgba(255,243,78,1) 100%) !important;
+}
+
+#tabbrowser-tabs {
+	--tab-loading-fill: rgba(255,166,41,1) !important;
+}

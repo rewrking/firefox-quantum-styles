@@ -1,10 +1,13 @@
 /*
 ========== Main Compact changes ========== */
-/*@import url(./shell/main_win.css); /**/
-@import url(./shell/main_mac.css); /**/
+/* @import url(./shell/main_stable.css); */
+@import url(./shell/main_nightly.css);
+
+@import url(./shell/main_win.css);
+/* @import url(./shell/main_mac.css); */
 
 /*
 ========== Additional customizations ========== */
 /* Comment out with "/*" at the beginning of the line to disable */
-/*@import url(./shell/hide_urlbar_stuff.css); /**/
-@import url(./shell/compact_urlbar.css); /**/
+/* @import url(./shell/hide_urlbar_stuff.css); */
+@import url(./shell/compact_urlbar.css);

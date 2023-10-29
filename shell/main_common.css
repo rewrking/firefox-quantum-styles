@@ -108,3 +108,44 @@ toolbar .toolbarbutton-1 {
 #tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([pinned], [hidden])) {
 	margin-inline-start: 0px !important;
 }
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon,
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) {
+	box-shadow: none !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon .tab-stack,
+.tabbrowser-tab:is([selected], [multiselected]) .tab-stack {
+	box-shadow: 0 -1px 0 1px rgba(0,0,0,.4) !important;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon, .tab-background:is([selected], [multiselected]) {
+	background-color: var(--toolbar-bgcolor) !important;
+}
+
+.tabbrowser-tab:not([selected], [multiselected]) .tab-background,
+.tabbrowser-tab:not([selected], [multiselected]) .tab-content {
+	padding-top: 3px !important;
+}
+
+#TabsToolbar #firefox-view-button:hover:not([open]) > .toolbarbutton-icon,
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected], [multiselected]) {
+	background-color: var(--toolbar-bgcolor) !important;
+	border-top: 3px solid var(--toolbar-bgcolor) !important;
+}
+
+.tab-icon-stack:has(img[src="chrome://branding/content/icon32.png"]):has(.tab-throbber:not([busy]))::before  {
+	display: block;
+	position: relative;
+	content: '\2B1b'; /* black square */
+	width: 16px;
+	height: 16px;
+	font-size: 14px;
+	margin-inline-end: 8px;
+}
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon .tab-stack,
+.tabbrowser-tab:is([selected], [multiselected]) .tab-stack {
+	padding-top: 3px !important;
+	background: #ffa629 !important;
+}

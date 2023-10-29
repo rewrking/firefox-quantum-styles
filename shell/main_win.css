@@ -1,5 +1,3 @@
-@import url(./main_common.css); /**/
-
 #tabbrowser-tabs:not(-moz-window-inactive),
 #TabsToolbar:not(-moz-window-inactive),
 #wrapper-new-tab-button:not(-moz-window-inactive),
@@ -14,7 +12,14 @@
 	background-color: var(--windows-eleven-os-color-inactive) !important;
 }
 
-#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme,
+
+#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon .tab-stack,
+.tabbrowser-tab:is([selected], [multiselected]) .tab-stack {
+	padding-top: 3px !important;
+	background: rgba(255,166,41,1);
+}
+
+/*#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme,
 #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"]:-moz-lwtheme {
 	border-top: 3px solid var(--accent-color-win) !important;
-}
+}*/
