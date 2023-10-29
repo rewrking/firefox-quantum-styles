@@ -135,17 +135,22 @@ toolbar .toolbarbutton-1 {
 }
 
 .tab-icon-stack:has(img[src="chrome://branding/content/icon32.png"]):has(.tab-throbber:not([busy]))::before  {
-	display: block;
+	display: inline-block;
 	position: relative;
-	content: '\2B1b'; /* black square */
+	content: '\25cc'; /* black square */
 	width: 16px;
 	height: 16px;
 	font-size: 14px;
-	margin-inline-end: 8px;
+	padding-right: 4px;
+	line-height: 1;
 }
 
 #TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon .tab-stack,
 .tabbrowser-tab:is([selected], [multiselected]) .tab-stack {
 	padding-top: 3px !important;
 	background: #ffa629 !important;
+}
+
+.tab-icon-stack .tab-throbber {
+	color: var(--tab-loading-fill) !important;
 }

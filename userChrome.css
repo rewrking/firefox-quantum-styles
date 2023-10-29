@@ -3,8 +3,8 @@
 /* @import url(./shell/main_stable.css); */
 @import url(./shell/main_nightly.css);
 
-@import url(./shell/main_win.css);
-/* @import url(./shell/main_mac.css); */
+/* @import url(./shell/main_win.css); */
+@import url(./shell/main_mac.css);
 
 /*
 ========== Additional customizations ========== */
