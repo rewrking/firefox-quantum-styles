@@ -11,9 +11,15 @@
 }*/
 
 /* Fall-ish */
-:root {
+/*:root {
 	--newtab-a: #301714;
 	--newtab-b: #ff7200;
+}*/
+
+/* Winter-ish */
+:root {
+	--newtab-a: #6190e8;
+	--newtab-b: #a7bfe8;
 }
 
 /* Spring-ish */
