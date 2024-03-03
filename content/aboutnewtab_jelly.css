@@ -1,10 +1,11 @@
 @-moz-document url(about:newtab), url(about:home) {
 	#root,
 	#onboarding-overlay {
+		background-image: url('../img/jelly_butter.gif') !important;
 		/* background-image: url('../img/jelly_tomato1.gif') !important; */
 		/* background-image: url('../img/jelly_meat_pie.gif') !important; */
 		/* background-image: url('../img/jelly_corn.gif') !important; */
-		background-image: url('../img/jelly_car2.gif') !important;
+		/* background-image: url('../img/jelly_car2.gif') !important; */
 		background-size: auto auto !important;
 	}
 }

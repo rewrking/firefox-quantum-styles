@@ -17,12 +17,18 @@
 }*/
 
 /* Winter-ish */
-:root {
+/*:root {
 	--newtab-a: #6190e8;
 	--newtab-b: #a7bfe8;
+}*/
+
+/* Spring-ish lighter */
+:root {
+	--newtab-a: #5b920a;
+	--newtab-b: #5c853c;
 }
 
-/* Spring-ish */
+/* Spring-ish bright */
 /*:root {
 	--newtab-a: #1E9600;
 	--newtab-b: #76b852;
