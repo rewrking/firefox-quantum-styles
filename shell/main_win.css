@@ -1,3 +1,10 @@
+#tabbrowser-tabs,
+#TabsToolbar,
+#wrapper-new-tab-button,
+#wrapper-alltabs-button {
+	transition: background-color 0.2s linear !important;
+}
+
 #tabbrowser-tabs:not(-moz-window-inactive),
 #TabsToolbar:not(-moz-window-inactive),
 #wrapper-new-tab-button:not(-moz-window-inactive),
